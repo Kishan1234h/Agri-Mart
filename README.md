@@ -1,125 +1,70 @@
-# AgriMart
+# Getting Started with Create React App
 
-AgriMart revolutionizes the way you buy and sell agricultural products. Connect directly with farmers, access fresh produce, and enjoy a seamless shopping experience. Empowering farmers, enhancing access. AgriMart – your farm-to-table solution.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Table of Contents
+## Available Scripts
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+In the project directory, you can run:
 
-## Project Overview
+### `npm start`
 
-AgriMart is a MERN stack project aimed at connecting consumers directly with farmers to buy and sell agricultural products. This platform enhances access to fresh produce and empowers farmers by providing a direct sales channel.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Features
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **Direct Farmer Connections:** Connect directly with local farmers to purchase fresh agricultural products.
-- **Seamless Shopping Experience:** User-friendly interface for browsing and purchasing products.
-- **Enhanced Access:** Improved access to fresh produce for consumers and direct market access for farmers.
+### `npm test`
 
-## Technologies Used
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **MongoDB:** Database for storing user and product information.
-- **Express.js:** Backend framework for building the server and API.
-- **React:** Frontend library for building the user interface.
-- **Node.js:** Runtime environment for server-side JavaScript execution.
+### `npm run build`
 
-## Installation
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-To set up the project locally, follow these steps:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/menavipandey/Agri-Mart.git
-   ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-2. **Navigate to the project directory:**
-   ```sh
-   cd Agri-Mart
-   ```
+### `npm run eject`
 
-3. **Install server dependencies:**
-   ```sh
-   cd server
-   npm install
-   ```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-4. **Install client dependencies:**
-   ```sh
-   cd ../client
-   npm install
-   ```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-5. **Set up environment variables:**
-   Create a `.env` file in the `server` directory and add the following:
-   ```env
-   MONGO_URI ="use_your_Mongodb_url"
-   JWT_SECRET=use_you_jwt_secret_key
-   ```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-6. **Start the server:**
-   ```sh
-   cd ../server
-   npm start
-   ```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-7. **Start the client:**
-   Open a new terminal window and navigate to the `client` directory:
-   ```sh
-   npm start
-   ```
+## Learn More
 
-## Usage
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- Visit `http://localhost:3000` to view the AgriMart frontend.
-- Register as a user to start buying or selling agricultural products.
-- Browse available products, add items to your cart, and complete your purchase.
-- Farmers can add new products to sell directly to consumers.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Project Structure
+### Code Splitting
 
-```
-Agri-Mart/
-│
-├── client/                # React frontend
-│   ├── public/            # Public assets
-│   └── src/               # React components and application logic
-│       └── ...
-│
-├── server/                # Express backend
-│   ├── config/            # Configuration files
-│   ├── controllers/       # Request handlers
-│   ├── models/            # Mongoose models
-│   ├── routes/            # API routes
-│   └── ...
-│
-└── README.md              # This README file
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Contributing
+### Analyzing the Bundle Size
 
-Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a pull request.
+### Making a Progressive Web App
 
-## License
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+### Advanced Configuration
 
-## Contact
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-For any inquiries or feedback, please contact us at:
-- **Email:** navipandey67@gmail.com
+### Deployment
 
-Thank you for using AgriMart – your farm-to-table solution!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
